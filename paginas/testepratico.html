@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/teste-pratico.css" />
+    <title>Teste Prático</title>
+  </head>
+  <body>
+    <a href="/index.html">Voltar</a>
+    <main>
+      <div id="calc-board">
+        <h1>Super Calculadora</h1>
+        <label for="numero-a">Primeiro número (A)</label>
+        <input id="numero-a" type="number" name="" />
+
+        <label for="numero-b" id="">Segundo número (B)</label>
+        <input id="numero-b" type="number" name="" />
+
+        <button id="button-calculate-calc">Calcular</button>
+      </div>
+      <div id="result-calc">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th class="tg-0pky">
+                Soma
+                <p id="somaAB"></p>
+              </th>
+              <th class="tg-0lax">
+                Subtração A-B
+                <p id="subAB"></p>
+              </th>
+              <th class="tg-0lax">
+                Subtração B-A
+                <p id="subBA"></p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax">
+                Multiplicação
+                <p id="multAB"></p>
+              </td>
+              <td class="tg-0lax">
+                Divisão A/B
+                <p id="divAB"></p>
+              </td>
+              <td class="tg-0lax">
+                Divisão B/A
+                <p id="divBA"></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">
+                Potência de A na base B
+                <p id="potAB"></p>
+              </td>
+              <td class="tg-0lax">
+                Potência de B na base A
+                <p id="potBA"></p>
+              </td>
+              <td class="tg-0lax">
+                Raiz quadrade de A
+                <p id="raizA"></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">
+                Raiz quadrade de B
+                <p id="raizB"></p>
+              </td>
+              <td class="tg-0lax">
+                Fatorial de A
+                <p id="fatA"></p>
+              </td>
+              <td class="tg-0lax">
+                Fatorial de B
+                <p id="fatB"></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">
+                Porcentagem de A em relação a B
+                <p id="pctAB"></p>
+              </td>
+              <td class="tg-0lax">
+                Porcentagem de B em relação a A
+                <p id="pctBA"></p>
+              </td>
+              <td class="tg-0lax">
+                Média
+                <p id="medAB"></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script src="/js/testePratico.js"></script>
+  </body>
+</html>
